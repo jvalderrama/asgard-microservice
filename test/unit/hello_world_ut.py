@@ -10,11 +10,15 @@ class TddHelloWorld(unittest.TestCase):
 #        self.__hello = hello_world()
        
 
-    def test_say_hello(self):
+    def test_say_hello_ok(self):
 
         #hello = hello_world()
 	hello = "Hello World!!"
         self.assertEqual(hello, "Hello World!!")
+
+    def test_say_hello_fail(self):
+	hello = "Bye"
+	self.assertNotEqual(hello, "Hello World!!")
 
 if __name__ == "__main__":
 
