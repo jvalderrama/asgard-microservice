@@ -17,7 +17,7 @@ class TddHelloWorld(unittest.TestCase):
         self.assertEqual(hello, "Hello World!!")
 
     def test_say_hello_fail(self):
-	hello = "Bye"
+	hello = "Bye!!"
 	self.assertNotEqual(hello, "Hello World!!")
 
 if __name__ == "__main__":
