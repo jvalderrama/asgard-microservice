@@ -1,0 +1,5 @@
+[gerrit]
+host=sftests.com
+port=29418
+project=asgard-microservice
+defaultbranch=master
