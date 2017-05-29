@@ -13,7 +13,7 @@ class TddHelloWorld(unittest.TestCase):
     def test_say_hello_ok(self):
 
         #hello = hello_world()
-	hello = "Hello World!!"
+	hello = "Hello World!"
         self.assertEqual(hello, "Hello World!!")
 
     def test_say_hello_fail(self):
