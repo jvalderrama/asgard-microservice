@@ -2,5 +2,6 @@
 global:Registered-Users	Registered Users
 51a33d75c1a369e67ae4d2eb696e62b754e900cc	Administrators
 global:Anonymous-Users	Anonymous Users
+b6b8b7b449abdceb19e39fdd3577e6d33a8d649b	core-asgard-microservice
 1d46bb78bc60b279f1554a04e92ea24b9d05c04b	asgard-microservice
 661d43d1f3cc18302db279c9faef767e25b87cff	Non-Interactive Users
