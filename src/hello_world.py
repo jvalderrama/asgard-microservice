@@ -1,10 +1,7 @@
-class hello_world():
+class hello_world:
+
+	def __init__(self):
+    		self.__hello = "Hello World!!"
 
 	def say_hello(self):
-		hello =  "Hello World!!"
-		print hello
-		return hello
-
-
-if __name__ == '__main__':
-	hello_world().say_hello()
+		return self.__hello

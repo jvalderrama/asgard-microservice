@@ -1,20 +1,17 @@
 import unittest
 
-#from ...src import hello_world --> Relative path is wrong
+from src.hello_world import hello_world
 
 
 class TddHelloWorld(unittest.TestCase):
 
-#    def setUp(self):
-
-#        self.__hello = hello_world()
+    def setUp(self):
+        hello_world_object = hello_world()
+	self.__hello = hello_world_object.say_hello()
        
 
     def test_say_hello_ok(self):
-
-        #hello = hello_world()
-	hello = "Hello World!!!"
-        self.assertEqual(hello, "Hello World!!!")
+        self.assertEqual(self.__hello, "Hello World!!")
 
     def test_say_hello_fail(self):
 	hello = "Bye!!"
