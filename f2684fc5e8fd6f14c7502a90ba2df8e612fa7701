@@ -1,0 +1,9 @@
+Code-Review+1: User Manu Tester <manuel.sanchezlopez@altran.com>
+Code-Review+2: Software Factory Administrator <admin@sftests.com>
+Workflow+1: Software Factory Administrator <admin@sftests.com>
+Verified+2: Jenkins CI <jenkins@sftests.com>
+Submitted-by: Jenkins CI <jenkins@sftests.com>
+Submitted-at: Wed, 31 May 2017 09:07:26 +0000
+Reviewed-on: https://sftests.com/r/52
+Project: asgard-microservice
+Branch: refs/heads/master
