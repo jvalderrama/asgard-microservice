@@ -1,7 +1,7 @@
 class hello_world:
 
 	def __init__(self):
-    		self.__hello = "Hello World Replication new commit with mail notification!!"
+    		self.__hello = "Hello World Replication new commit with mail notification today!!"
 
 	def say_hello(self):
 		return self.__hello
