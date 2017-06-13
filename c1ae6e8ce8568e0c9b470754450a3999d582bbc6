@@ -1,0 +1,8 @@
+Code-Review+2: Software Factory Administrator <admin@sftests.com>
+Workflow+1: Software Factory Administrator <admin@sftests.com>
+Verified+2: Jenkins CI <jenkins@sftests.com>
+Submitted-by: Jenkins CI <jenkins@sftests.com>
+Submitted-at: Tue, 13 Jun 2017 10:56:03 +0000
+Reviewed-on: https://sftests.com/r/76
+Project: asgard-microservice
+Branch: refs/heads/master
