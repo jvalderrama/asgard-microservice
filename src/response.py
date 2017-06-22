@@ -1,8 +1,8 @@
 class response:
 
         def __init__(self, greeting):
-		if greeting == "Hello World demo mirror ...!!":
-                	self.__response = "Hello from the world mirror ...!!"
+		if greeting == "Hello World demo mirror!!":
+                	self.__response = "Hello from the world mirror!!"
 		else:
 			self.__response = ""
 
